@@ -14,7 +14,7 @@ app.use("/api/blog", blogRouter);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:a79GgxXsDUbYSK1I@cluster0.wmxh9.mongodb.net/?retryWrites=true&w=majority"
+    ""
   )
   .then(() => app.listen(port))
   .then(() => console.log("connected"))
