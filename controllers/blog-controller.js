@@ -1,5 +1,5 @@
-import Blog from '../model/Blog';
-import User from '../model/User';
+import Blog from '../model/Blog.js';
+import User from '../model/User.js';
 import bcrypt from 'bcryptjs';
 import { response } from 'express';
 import mongoose from 'mongoose';
