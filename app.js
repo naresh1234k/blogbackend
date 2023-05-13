@@ -14,7 +14,7 @@ app.use("/api/blog", blogRouter);
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0.wmxh9.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0.ewp31uo.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() => app.listen(port))
   .then(() => console.log("connected"))
